@@ -1,7 +1,16 @@
-# Active-Directory  
+<h1>Active-Directory</h1> 
+<h2>Description</h2>
+
+<br />
+
+<h2>Languages and Utilities Used</h2>
+<h2>Environments Used</h2>
+<br/>
+
+<h3>Downloading Virtual Box, Windows Server 2019, and Windows 10 ISO</h3>
 <img src="https://i.imgur.com/cnVtoTo.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/V0AfYag.png" height="80%" width="100%"/>
-<img src="https://i.imgur.com/D03Zso9.png" height="80%" width="100%"/>
+<img src="https://i.imgur.com/7ay0JFL.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/m5eLSy3.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/LeGxM39.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/B21pIcX.png" height="80%" width="100%"/>
