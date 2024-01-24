@@ -165,13 +165,26 @@
 <h2>Installing RAS/NAT</h2>
 <img src="https://i.imgur.com/duJzjf5.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/KypVEsQ.png" height="80%" width="100%"/>
+- <b>Now we're adding another role, similar to when installing AD DS but now we are checking the "Remote Access" box <br>
 <img src="https://i.imgur.com/0dM8w7b.png" height="80%" width="100%"/>
+- <b>And select "Routing" for the role services and hit "Add Features"<br>
 <img src="https://i.imgur.com/kOaGT1K.png" height="80%" width="100%"/>
+- <b>Then Install the role service which will take several minutes.</b>
 <img src="https://i.imgur.com/graJbUg.png" height="80%" width="100%"/>
+- <b>Tools -> Routing and Remote Access</b>
 <img src="https://i.imgur.com/lTx8ujM.png" height="80%" width="100%"/>
+- <b>Right click DOMAINCONTROLLER -> Configure and Enable Routing and Remote Access -> Next</b>
 <img src="https://i.imgur.com/XUMxHpv.png" height="80%" width="100%"/>
+- <b>Select "Network address translation (NAT)" as the purpose is as described in the highlighted Red box.</b>
 <img src="https://i.imgur.com/rBuluD7.png" height="80%" width="100%"/>
+- <b>Select the external network (Xx_Internet_xX) that was renamed by identifying it's IP address.<br>
+- <b>Then hit Next and then Finish to complete this step.<br>
+- <b>Note if you don't see it the first time, close out the window and retry again.<br>
 <img src="https://i.imgur.com/x2YtYxN.png" height="80%" width="100%"/>
+- <b>If followed properly, it should look like this where the DOMAINCONTROLLER is now green and have successfully configured RAS/NAT.<br>
+<br>
+
+<h2>Setting up the DHCP Server</h2>
 <img src="https://i.imgur.com/2Pz3PV3.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/LaFyAR4.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/zqNAOko.png" height="80%" width="100%"/>
