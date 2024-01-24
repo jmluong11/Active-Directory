@@ -8,8 +8,8 @@
 <br/>
 
 <h3>Downloading Virtual Box, Windows Server 2019, and Windows 10 ISO</h3>
-<img src="https://i.imgur.com/cnVtoTo.png" height="80%" width="100%"/>
-<img src="https://i.imgur.com/V0AfYag.png" height="80%" width="100%"/>
+<img src="https://i.imgur.com/1xQCTEN.png" height="80%" width="100%"/>
+<img src="https://i.imgur.com/Kl8NqzY.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/7ay0JFL.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/m5eLSy3.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/LeGxM39.png" height="80%" width="100%"/>
