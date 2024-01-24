@@ -18,7 +18,7 @@
 
 <h2>Setting up the Virtual Machine</h2>
 <img src="https://i.imgur.com/B21pIcX.png" height="80%" width="100%"/>
-- <b>Create any name for your Virtual Box and use version "Other Windows (64-bit).<br>
+- <b>Create any name for your Virtual Box ("DomainController" since this is the purpose of this Virtual Machine) and use version "Other Windows (64-bit).<br>
 <br/>
 <img src="https://i.imgur.com/vbnK6JV.png" height="80%" width="100%"/>
 - <b>Set the RAM and CPU that your PC/laptop can manage comfortably.<br>
@@ -71,7 +71,7 @@
 <img src="https://i.imgur.com/dfHQn4J.png" height="80%" width="100%"/>
 - <b>Type the password that you created (Password1).<br>
 <img src="https://i.imgur.com/CkmxJuQ.png" height="80%" width="100%"/>
-- <b>To allow autoadjusting resolution to the window and a smooth mouse movement, to the drop down menu and click on "Insert Guest Additions CD Image..."<br>
+- <b>To allow autoadjusting resolution to the window and a smooth mouse movement, (RED BOX) use the drop down menu and click on "Insert Guest Additions CD Image..."<br>
 - <b>Navigate through the red boxes as shown in the next two images until you reach a pop-up window, then follow the steps to Install and lastly reboot.<br>
 <img src="https://i.imgur.com/W2TEYMy.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/YMYg8iM.png" height="80%" width="100%"/>
@@ -88,12 +88,12 @@
 - <b>There are two options of Ethernet Networks. (RED) From Ethernet -> Details... -> IPv4 Address, based on the IPv4 address one can identify that it's the external network (network connected to the internet or "Adapter 1").<br>
 <br/>
 <img src="https://i.imgur.com/xwqiQa4.png" height="80%" width="100%"/>
-- <b>(ORANGE)Since we know which is the external and internal networks, we renamed them ("Xx_Internet_xX" and "l_INTERNAL_l") to sort them out easier.<br>
-- <b>(RED)Looking into the IPv4 Address from the internal network, note that it has an "Autoconfiguration" because "Adapter 2" was unable to find a DCHP server thus it was auto-assigned a IP address. <br>
+- <b>(ORANGE BOX) Since we know which is the external and internal networks, we renamed them ("Xx_Internet_xX" and "l_INTERNAL_l") to sort them out easier.<br>
+- <b>(RED BOX) Looking into the IPv4 Address from the internal network, note that it has an "Autoconfiguration" because "Adapter 2" was unable to find a DCHP server thus it was auto-assigned a IP address. <br>
 <br/>
 <img src="https://i.imgur.com/hYK4AHN.png" height="80%" width="100%"/>
 - <b>This step is assigning an IP address for our Internal Network, thus insert the addresses as show above and press "OK" for all.<br>
-- <b>A default gateway is not entered because the Domain Controller (Windows 2019 ISO) is going to serve as the default gateway to the External Network (the internet)</b>
+- <b>A default gateway is not entered because the Domain Controller (Windows 2019 ISO) is going to serve as the default gateway to the External Network (the internet)<br>
 - <b>The "Preferred DNS server" address 127.0.0.1 is a common loopback address to ping itself as the DNS server, but using the same IP address 172.16.0.1 serves the same effect as well.<br>
 <br/>
 
@@ -107,11 +107,11 @@
 <img src="https://i.imgur.com/w3VWsIs.png" height="80%" width="100%"/>
 - <b>Nagivate thorugh the "Server Manager - Dashboard" by clicking "Add roles and features"<br>
 - <b>A pop-up window appears and press "Next" until arriving at the "Server Selection" tab.<br>
-- <b>Currently there's only one server available to be selected to install AD DS, then hit "Next".</b>
+- <b>Currently there's only one server available to be selected to install AD DS, then hit "Next".<br>
 <br/>
 <img src="https://i.imgur.com/pJnBukt.png" height="80%" width="100%"/>
-- <b>Select the "Active Directory Domain Services," "Add Features," hit "Next" for the rest of the tabs, and lastly "Install" which will take several minutes.</b>
-<br>
+- <b>Select the "Active Directory Domain Services," "Add Features," hit "Next" for the rest of the tabs, and lastly "Install" which will take several minutes.<br>
+<br/>
 
 <h2>Creating the Domain</h2>
 <img src="https://i.imgur.com/dpV1Xby.png" height="80%" width="100%"/>
