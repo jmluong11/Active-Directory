@@ -38,11 +38,16 @@
 <br/>
 <img src="https://i.imgur.com/IaxcwxU.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/gOIgEZI.png" height="80%" width="100%"/>
-- <b>Navigate to the "Network" tab and change "Adapter 1" to "NAT" and then "Adapter 2" to "Internal Network."<br>
+- <b>Navigate to the "Network" tab, change "Adapter 1" to "NAT," "Adapter 2" to "Internal Network," press OK, and double click the Virtual Box (DomainController) to begin running the software.<br>
 - <b>Adapter 1 is being connected to the internet externally while Adapter 2 is connected internally. Companies, for example, would have Adapter 2 (in this case) to control certain actions/regulations for security measures on their internal network. <br>
 <br/>
+
+<h3>Running Windows 2019 ISO on the Virtual Machine/Box</h3>
 <img src="https://i.imgur.com/NdyVtlP.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/CCjcZon.png" height="80%" width="100%"/>
+- <b>Select the "DVD" and click the Windows 2019 ISO file that was downloaded in the beginning.<br>
+- <b>Click "Mount and Retry Boot," and this will take a period of time to setup until you reach the next image below. </b>
+<br>
 <img src="https://i.imgur.com/UWZgxQf.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/BOAILjw.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/bV2arW3.png" height="80%" width="100%"/>
