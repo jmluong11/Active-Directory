@@ -19,21 +19,28 @@
 <h3>Setting up the Virtual Machine</h3>
 <img src="https://i.imgur.com/B21pIcX.png" height="80%" width="100%"/>
 - <b>Create any name for your Virtual Box and use version "Other Windows (64-bit).<br>
+<br/>
 <img src="https://i.imgur.com/vbnK6JV.png" height="80%" width="100%"/>
 - <b>Set the RAM and CPU that your PC/laptop can manage comfortably.<br>
+<br/>
 <img src="https://i.imgur.com/o7xWmOa.png" height="80%" width="100%"/>
 - <b>Hit "Next."<br>
+<br/>
 <img src="https://i.imgur.com/StoMfHz.png" height="80%" width="100%"/>
 - <b>After overviewing the Machine Name, Machine Folder, Guest OS Type, RAM, and CPU; hit "Finish."<br>
+<br/>
 <img src="https://i.imgur.com/d8JS6Xa.png" height="80%" width="100%"/>
 - <b>The Virtual Box is setup, but navigate to "Settings (Purple Box)"<br>
+<br/>
 <img src="https://i.imgur.com/v3aiH6X.png" height="80%" width="100%"/>
 - <b>Navigate to the "Advanced" tab and adjust the "Shared Clipboard" and "Drag'n'Drop" to both Bidirectional.<br>
 - <b>This essentially allows the user to work as well as move files in and out of the Virtual Machine and your Desktop.<br>
+<br/>
 <img src="https://i.imgur.com/IaxcwxU.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/gOIgEZI.png" height="80%" width="100%"/>
 - <b>Navigate to the "Network" tab and change "Adapter 1" to "NAT" and then "Adapter 2" to "Internal Network."<br>
 - <b>Adapter 1 is being connected to the internet externally while Adapter 2 is connected internally. Companies, for example, would have Adapter 2 (in this case) to control certain actions/regulations for security measures on their internal network. <br>
+<br/>
 <img src="https://i.imgur.com/NdyVtlP.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/CCjcZon.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/UWZgxQf.png" height="80%" width="100%"/>
