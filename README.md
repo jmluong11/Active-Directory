@@ -50,18 +50,33 @@
 <br>
 <img src="https://i.imgur.com/BOAILjw.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/bV2arW3.png" height="80%" width="100%"/>
-- <b>Choose your preferred language and then "Install."</b>
+- <b>Choose your preferred language and then "Install"<br>
+- <b>The next additional steps press "next" or click on the Red box as demonstrated on the next several images.<br>
+<br/>
 <img src="https://i.imgur.com/JYJXWy4.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/A6pa67A.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/dEs7CLe.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/7zPiG3o.png" height="80%" width="100%"/>
+- <b>After this step, it's going to take a period of time for the Windows to install and it's going to restart itself. During the process DO NOT press any keys until you are at the next step (image below).<br>
+<br/>
+<h3>Creating a password and loging into the VM</h3>
 <img src="https://i.imgur.com/ziNQxJY.png" height="80%" width="100%"/>
+- <b>Create any desired password that you'll remember (I used "Password1").<br>
+<br/>
 <img src="https://i.imgur.com/DReJl9Q.png" height="80%" width="100%"/>
+- <b>Since you cannot type the key "Ctrl+Alt+Delete", you're going to have to use the 
+  Input->Keyboard->Insert Ctrl+Alt+Delete.<br>
+<br/>
 <img src="https://i.imgur.com/dfHQn4J.png" height="80%" width="100%"/>
+- <b>Type the password that you created (Password1).<br>
 <img src="https://i.imgur.com/CkmxJuQ.png" height="80%" width="100%"/>
+- <b>To allow fullscreening and smooth mouse movement, to the drop down menu and click on "Insert Guest Additions CD Image..."</b>
 <img src="https://i.imgur.com/W2TEYMy.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/YMYg8iM.png" height="80%" width="100%"/>
+- <b>Navigate through the red boxes as shown above until you reach a pop-up window, then follow the steps to Install and your screen should look like the image as shown below.<br>
 <img src="https://i.imgur.com/hzRpHkv.png" height="80%" width="100%"/>
+<br/>
+<br/>
 <img src="https://i.imgur.com/6ug0546.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/L04Grun.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/xwqiQa4.png" height="80%" width="100%"/>
