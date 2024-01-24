@@ -60,7 +60,7 @@
 - <b>After this step, it's going to take a period of time for the Windows to install and it's going to restart itself. During the process DO NOT press any keys until you are at the next step (image below).<br>
 <br/>
 
-<h2>Creating a password and logging into the VM</h2>
+<h2>Creating a password and logging into the Virtual Box</h2>
 <img src="https://i.imgur.com/ziNQxJY.png" height="80%" width="100%"/>
 - <b>Create any desired password that you'll remember (I used "Password1").<br>
 <br/>
@@ -80,18 +80,40 @@
 <br/>
 <br/>
 
-<h2>Identifying and Recognizing the Internal and External Networks</h2>
+<h2>Internal and External Networks of the Virtual Box</h2>
 <img src="https://i.imgur.com/6ug0546.png" height="80%" width="100%"/>
 - <b>Navigate to the network settings on the Virtual Box and click on "Change adapter options"<br>
 <br/>
 <img src="https://i.imgur.com/L04Grun.png" height="80%" width="100%"/>
-- <b>There are two options of Ethernet Networks. (In Red) From Ethernet -> Details... -> IPv4 Address, based on the IPv4 address one can identify that it's the external network/network connected to the internet/"Adapter 1"</b>
+- <b>There are two options of Ethernet Networks. (RED) From Ethernet -> Details... -> IPv4 Address, based on the IPv4 address one can identify that it's the external network (network connected to the internet or "Adapter 1").<br>
+<br/>
 <img src="https://i.imgur.com/xwqiQa4.png" height="80%" width="100%"/>
+- <b>(ORANGE)Since we know which is the external and internal networks, we renamed them ("Xx_Internet_xX" and "l_INTERNAL_l") to sort them out easier.<br>
+- <b>(RED)Looking into the IPv4 Address from the internal network, note that it has an "Autoconfiguration" because "Adapter 2" was unable to find a DCHP server thus it was auto-assigned a IP address. <br>
+<br/>
 <img src="https://i.imgur.com/hYK4AHN.png" height="80%" width="100%"/>
+- <b>This step is assigning an IP address for our Internal Network, thus insert the addresses as show above and press "OK" for all.<br>
+- <b>A default gateway is not entered because the Domain Controller (Windows 2019 ISO) is going to serve as the default gateway to the External Network (the internet)</b>
+- <b>The "Preferred DNS server" address 127.0.0.1 is a common loopback address to ping itself as the DNS server, but using the same IP address 172.16.0.1 serves the same effect as well.<br>
+<br/>
+
+<h2>Renaming the PC to "DomainControllerPC"</h2>
 <img src="https://i.imgur.com/zcCzN7g.png" height="80%" width="100%"/>
+- <b>Renaming the PC is helpful for other users/admins to detect and sort between multiple PCs and generally is a good practice to perform ahead of time.<br>
+<br/>
+
+<h2>Installing Active Directory Domain Services(AD DS)</h2>
 <img src="https://i.imgur.com/ujXzbc0.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/w3VWsIs.png" height="80%" width="100%"/>
+- <b>Nagivate thorugh the "Server Manager - Dashboard" by clicking "Add roles and features"<br>
+- <b>A pop-up window appears and press "Next" until arriving at the "Server Selection" tab.<br>
+- <b>Currently there's only one server available to be selected to install AD DS, then hit "Next".</b>
+<br/>
 <img src="https://i.imgur.com/pJnBukt.png" height="80%" width="100%"/>
+- <b>Select the "Active Directory Domain Services," "Add Features," hit "Next" for the rest of the tabs, and lastly "Install" which will take several minutes.</b>
+<br>
+
+<h2>Creating the Domain</h2>
 <img src="https://i.imgur.com/dpV1Xby.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/smZch5Z.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/rvBPsod.png" height="80%" width="100%"/>
