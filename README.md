@@ -51,7 +51,7 @@
 <img src="https://i.imgur.com/BOAILjw.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/bV2arW3.png" height="80%" width="100%"/>
 - <b>Choose your preferred language and then "Install"<br>
-- <b>The next additional steps press "next" or click on the Red box as demonstrated on the next several images.<br>
+- <b>The next additional steps press "next" or click on the Red box as demonstrated on the upcoming images.<br>
 <br/>
 <img src="https://i.imgur.com/JYJXWy4.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/A6pa67A.png" height="80%" width="100%"/>
@@ -71,17 +71,21 @@
 <img src="https://i.imgur.com/dfHQn4J.png" height="80%" width="100%"/>
 - <b>Type the password that you created (Password1).<br>
 <img src="https://i.imgur.com/CkmxJuQ.png" height="80%" width="100%"/>
-- <b>To allow autoadjusting resolution to the window and smooth mouse movement, to the drop down menu and click on "Insert Guest Additions CD Image..."</b>
+- <b>To allow autoadjusting resolution to the window and a smooth mouse movement, to the drop down menu and click on "Insert Guest Additions CD Image..."<br>
+- <b>Navigate through the red boxes as shown in the next two images until you reach a pop-up window, then follow the steps to Install and lastly reboot.<br>
 <img src="https://i.imgur.com/W2TEYMy.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/YMYg8iM.png" height="80%" width="100%"/>
-- <b>Navigate through the red boxes as shown above until you reach a pop-up window, then follow the steps to Install and lastly reboot. Your screen should look like the image as shown below.<br>
+- <b>Your screen should look like the image as shown below.<br>
 <img src="https://i.imgur.com/hzRpHkv.png" height="80%" width="100%"/>
 <br/>
 <br/>
 
-<h2>Setting up the Internal Network "(Adapter 2)"</h2>
+<h2>Identifying and Recognizing the Internal and External Networks</h2>
 <img src="https://i.imgur.com/6ug0546.png" height="80%" width="100%"/>
+- <b>Navigate to the network settings on the Virtual Box and click on "Change adapter options"<br>
+<br/>
 <img src="https://i.imgur.com/L04Grun.png" height="80%" width="100%"/>
+- <b>There are two options of Ethernet Networks. (In Red) From Ethernet -> Details... -> IPv4 Address, based on the IPv4 address one can identify that it's the external network/network connected to the internet/"Adapter 1"</b>
 <img src="https://i.imgur.com/xwqiQa4.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/hYK4AHN.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/zcCzN7g.png" height="80%" width="100%"/>
