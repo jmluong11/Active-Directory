@@ -185,10 +185,16 @@
 <br>
 
 <h2>Setting up the DHCP Server</h2>
+<img src="https://i.imgur.com/duJzjf5.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/LaFyAR4.png" height="80%" width="100%"/>
+- <b>Repeat the same steps but now we are going to select the box "DHCP Server" and "Add Features"<br>
+- <b>Continue through the tabs similar to the previous steps to Install which will take several minutes.<br>
 <img src="https://i.imgur.com/zqNAOko.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/miaN8Er.png" height="80%" width="100%"/>
+- <b>After going through "Tools" -> "DHCP," right click "IPv4" -> "New Scope"<br>
+- <b>A pop up window is going to appear and thus hit "Next"<br>
 <img src="https://i.imgur.com/M1Aw9xp.png" height="80%" width="100%"/>
+-
 <img src="https://i.imgur.com/lXCBQUd.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/TDFpysU.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/rB4KBIR.png" height="80%" width="100%"/>
