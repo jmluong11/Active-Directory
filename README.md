@@ -9,12 +9,14 @@
 
 <h3>Downloading Virtual Box, Windows Server 2019, and Windows 10 ISO</h3>
 <img src="https://i.imgur.com/1xQCTEN.png" height="80%" width="100%"/>
-- <b>Install Virtual Box "Window Hosts" and then "All supported platforms" from this URL "[https://www.virtualbox.org/wiki/Downloads]".<br>
+- <b>Download and install Virtual Box "Window Hosts" and then "All supported platforms" from this URL "[https://www.virtualbox.org/wiki/Downloads]".<br>
 <img src="https://i.imgur.com/Kl8NqzY.png" height="80%" width="100%"/>
 - <b>Install Windows Server 2019 ISO "[https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019] that will be used for the Virtual Box.<br>
 <img src="https://i.imgur.com/7ay0JFL.png" height="80%" width="100%"/>
 - <b>Lastly download Windows 10 ISO "[https://www.microsoft.com/en-us/software-download/windows10]" that will be used near the end of the lab<br>
-<img src="https://i.imgur.com/m5eLSy3.png" height="80%" width="100%"/>
+<br/>
+
+<h3>Setting up the Virtual Machine</h3>
 <img src="https://i.imgur.com/LeGxM39.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/B21pIcX.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/vbnK6JV.png" height="80%" width="100%"/>
