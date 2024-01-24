@@ -129,16 +129,40 @@
 <img src="https://i.imgur.com/R9pV3bp.png" height="80%" width="100%"/>
 - <b>(RED BOX) Hit "Next" for the rest of the tabs and "Install." This will take several minutes and cause your Virtual Box to restart.<br>
 <br/>
+
+<h2>Creating a Domain Administrator Account</h2>
 <img src="https://i.imgur.com/whZg1kW.png" height="80%" width="100%"/>
+- <b>After restarting, we notice a change in account name. Login with the password created (Password1).<br>
+<br/>
 <img src="https://i.imgur.com/bToCY4g.png" height="80%" width="100%"/>
+- <b>Navigate through the start menu to "Active Directory Users and Computers"<br>
+<br/>
 <img src="https://i.imgur.com/ZMLzSBO.png" height="80%" width="100%"/>
+- <b>Our newly created domain "mydomain.com" appears, right click it to create an "Organizational Unit (OU)" to put our admin account in.<br>
+  <br/>
 <img src="https://i.imgur.com/Inq4b9I.png" height="80%" width="100%"/>
+- <b>Name it off your preference (used "_ADMINS")<br>
+  <br/>
 <img src="https://i.imgur.com/SHkRbcT.png" height="80%" width="100%"/>
+- <b>Now right click on the new OU ("_ADMINS") to create a new user a.k.a. the Domain Admin Account <br>
 <img src="https://i.imgur.com/C3moeeC.png" height="80%" width="100%"/>
+- <b>Type your full name with the user login starting with an "a-" (common form of admin accounts in companies starting with a) followed by the first initial of the name with lastly followed with the last name.<br>
+<br/>
 <img src="https://i.imgur.com/D88Dr2o.png" height="80%" width="100%"/>
+- <b>Create a password ("Password1") and make sure to check "Password never expires"<br>
 <img src="https://i.imgur.com/Q8ketj1.png" height="80%" width="100%"/>
+- <b>After creating the new user, it is illustrated in "_ADMINS" (OU).<br>
+- <b>Right click to go the account's "Properties"<br>
+<br/>
 <img src="https://i.imgur.com/WLBYPAK.png" height="80%" width="100%"/>
+- <b>To officially make it a Domain Admin Account, (RED BOXES) Member Of -> Add... -> "Domain Admins" -> Check Names<br>
+- <b>Next, sign out of the "MYDOMAIN\Administrator" account using the Start Menu.
 <img src="https://i.imgur.com/oLhqEfK.png" height="80%" width="100%"/>
+- <b>Sign in using "Other user" and enter the Domain Admin Account user (a-jluong) and password (Password1) that was created.<br>
+- <b>Note below that it now says "Sign in to: MYDOMAIN"<br>
+<br>
+
+<h2>Installing RAS/NAT</h2>
 <img src="https://i.imgur.com/duJzjf5.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/KypVEsQ.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/0dM8w7b.png" height="80%" width="100%"/>
