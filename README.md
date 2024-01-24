@@ -7,7 +7,7 @@
 <h2>Environments Used</h2>
 <br/>
 
-<h3>Downloading Virtual Box, Windows Server 2019, and Windows 10 ISO</h3>
+<h2>Downloading Virtual Box, Windows Server 2019, and Windows 10 ISO</h2>
 <img src="https://i.imgur.com/1xQCTEN.png" height="80%" width="100%"/>
 - <b>Download and install Virtual Box "Window Hosts" and then "All supported platforms" from this URL "[https://www.virtualbox.org/wiki/Downloads]".<br>
 <img src="https://i.imgur.com/Kl8NqzY.png" height="80%" width="100%"/>
@@ -16,7 +16,7 @@
 - <b>Lastly download Windows 10 ISO "[https://www.microsoft.com/en-us/software-download/windows10]" that will be used near the end of the lab.<br>
 <br/>
 
-<h3>Setting up the Virtual Machine</h3>
+<h2>Setting up the Virtual Machine</h2>
 <img src="https://i.imgur.com/B21pIcX.png" height="80%" width="100%"/>
 - <b>Create any name for your Virtual Box and use version "Other Windows (64-bit).<br>
 <br/>
@@ -39,10 +39,10 @@
 <img src="https://i.imgur.com/IaxcwxU.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/gOIgEZI.png" height="80%" width="100%"/>
 - <b>Navigate to the "Network" tab, change "Adapter 1" to "NAT," "Adapter 2" to "Internal Network," press OK, and double click the Virtual Box (DomainController) to begin running the software.<br>
-- <b>Adapter 1 is being connected to the internet externally while Adapter 2 is connected internally. Companies or schools, for example, would have Adapter 2 (in this case) to control certain actions/regulations for security measures on their internal network. <br>
+- <b>Adapter 1 is being connected to the internet externally while Adapter 2 is connected internally which are conjoined by a DomainController (Windows 2019 ISO). Companies or schools, for example, would have Adapter 2 (in this case) to control certain actions/regulations for security measures on their internal networks. <br>
 <br/>
 
-<h3>Running Windows 2019 ISO on the Virtual Machine/Box</h3>
+<h2>Running Windows 2019 ISO on the Virtual Machine/Box</h2>
 <img src="https://i.imgur.com/NdyVtlP.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/CCjcZon.png" height="80%" width="100%"/>
 - <b>Select the "DVD" and click the Windows 2019 ISO file that was downloaded in the beginning.<br>
@@ -59,7 +59,8 @@
 <img src="https://i.imgur.com/7zPiG3o.png" height="80%" width="100%"/>
 - <b>After this step, it's going to take a period of time for the Windows to install and it's going to restart itself. During the process DO NOT press any keys until you are at the next step (image below).<br>
 <br/>
-<h3>Creating a password and loging into the VM</h3>
+
+<h2>Creating a password and logging into the VM</h2>
 <img src="https://i.imgur.com/ziNQxJY.png" height="80%" width="100%"/>
 - <b>Create any desired password that you'll remember (I used "Password1").<br>
 <br/>
@@ -70,13 +71,15 @@
 <img src="https://i.imgur.com/dfHQn4J.png" height="80%" width="100%"/>
 - <b>Type the password that you created (Password1).<br>
 <img src="https://i.imgur.com/CkmxJuQ.png" height="80%" width="100%"/>
-- <b>To allow fullscreening and smooth mouse movement, to the drop down menu and click on "Insert Guest Additions CD Image..."</b>
+- <b>To allow autoadjusting resolution to the window and smooth mouse movement, to the drop down menu and click on "Insert Guest Additions CD Image..."</b>
 <img src="https://i.imgur.com/W2TEYMy.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/YMYg8iM.png" height="80%" width="100%"/>
-- <b>Navigate through the red boxes as shown above until you reach a pop-up window, then follow the steps to Install and your screen should look like the image as shown below.<br>
+- <b>Navigate through the red boxes as shown above until you reach a pop-up window, then follow the steps to Install and lastly reboot. Your screen should look like the image as shown below.<br>
 <img src="https://i.imgur.com/hzRpHkv.png" height="80%" width="100%"/>
 <br/>
 <br/>
+
+<h2>Setting up the Internal Network "(Adapter 2)"</h2>
 <img src="https://i.imgur.com/6ug0546.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/L04Grun.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/xwqiQa4.png" height="80%" width="100%"/>
