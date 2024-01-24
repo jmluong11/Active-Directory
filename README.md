@@ -110,15 +110,25 @@
 - <b>Currently there's only one server available to be selected to install AD DS, then hit "Next".<br>
 <br/>
 <img src="https://i.imgur.com/pJnBukt.png" height="80%" width="100%"/>
-- <b>Select the "Active Directory Domain Services," "Add Features," hit "Next" for the rest of the tabs, and lastly "Install" which will take several minutes.<br>
+- <b>Select the "Active Directory Domain Services," "Add Features," hit "Next" for the rest of the tabs.<br>
+<br/>
+<img src="https://i.imgur.com/dpV1Xby.png" height="80%" width="100%"/>
+- <b>Lastly Install, the installation will take several minutes to complete.<br>
 <br/>
 
 <h2>Creating the Domain</h2>
-<img src="https://i.imgur.com/dpV1Xby.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/smZch5Z.png" height="80%" width="100%"/>
+- <b>Click on the flag then click on "Promote this server to a domain controller"<br>
+<br/>
 <img src="https://i.imgur.com/rvBPsod.png" height="80%" width="100%"/>
+- <b>Select "Add a new forest" and create a Root domain name (the name chosen for the lab is "mydomain.com")<br>
+<br/>
 <img src="https://i.imgur.com/6ufbTde.png" height="80%" width="100%"/>
+- <b>Create a password ("Password1" was used for this lab step)<br>
+<br/>
 <img src="https://i.imgur.com/R9pV3bp.png" height="80%" width="100%"/>
+- <b>(RED BOX) Hit "Next" for the rest of the tabs and "Install." This will take several minutes and cause your Virtual Box to restart.<br>
+<br/>
 <img src="https://i.imgur.com/whZg1kW.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/bToCY4g.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/ZMLzSBO.png" height="80%" width="100%"/>
