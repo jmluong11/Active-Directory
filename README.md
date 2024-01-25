@@ -194,11 +194,18 @@
 - <b>After going through "Tools" -> "DHCP," right click "IPv4" -> "New Scope"<br>
 - <b>A pop up window is going to appear and thus hit "Next"<br>
 <img src="https://i.imgur.com/M1Aw9xp.png" height="80%" width="100%"/>
--
+- <b>Enter any Scope Name, for this lab I entered the Scope Range (172.16.0.100-200), then hit Next <br>
 <img src="https://i.imgur.com/lXCBQUd.png" height="80%" width="100%"/>
+- <b>The "Start IP address:" is the beginning range (172.16.100) while "End IP Address:" is the end range (172.16.0.200).<br>
+- <b>The (CIDR) "Length" will be set to (/)24 which automatically inputs the mask as 255.255.255.0 <br>
+- <b>After proceeding to "Next" it will ask to add any Exclusions or Delays, skip it and proceed to "Next"<br>
 <img src="https://i.imgur.com/TDFpysU.png" height="80%" width="100%"/>
+- <b>"Lease Duration" is how long a computer can hold an IP Address before it becomes refreshed for another user to use. I inputed 8 days, but it ranges depending on circumstanes whether it be at a cafe, school, library, or company for example.</b>
 <img src="https://i.imgur.com/rB4KBIR.png" height="80%" width="100%"/>
+- <b>Select the "Yes, I want to configure these options now" because we want the client to use specific servers/gateways to connect to the internet.<br>
 <img src="https://i.imgur.com/CK22avW.png" height="80%" width="100%"/>
+- <b>Enter the IP Address of the Domain Controlller which serves as both the default gateway and DNS. Afterwards, hit "Add"<br>
+- <b>After adding, proceed with all "Next" and then "Finish"<br>
 <img src="https://i.imgur.com/k8GaYn6.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/4glHete.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/FOzNaHh.png" height="80%" width="100%"/>
