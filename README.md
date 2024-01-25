@@ -207,6 +207,7 @@
 - <b>Enter the IP Address of the Domain Controlller which serves as both the default gateway and DNS. Afterwards, hit "Add"<br>
 - <b>After adding, proceed with all "Next" and then "Finish"<br>
 <img src="https://i.imgur.com/k8GaYn6.png" height="80%" width="100%"/>
+- <b>Right click domaincontrollerpc.mydomain.com</b>
 <img src="https://i.imgur.com/4glHete.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/FOzNaHh.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/zaBccFq.png" height="80%" width="100%"/>
