@@ -207,13 +207,20 @@
 - <b>Enter the IP Address of the Domain Controlller which serves as both the default gateway and DNS. Afterwards, hit "Add"<br>
 - <b>After adding, proceed with all "Next" and then "Finish"<br>
 <img src="https://i.imgur.com/k8GaYn6.png" height="80%" width="100%"/>
-- <b>Right click domaincontrollerpc.mydomain.com</b>
+- <b>Right click domaincontrollerpc.mydomain.com to "Authorize" and then "Refresh" as well in the drop down menu.<br>
 <img src="https://i.imgur.com/4glHete.png" height="80%" width="100%"/>
+- <b>After refreshing, IPv4, IPv6, Address Lease, and the Scope are now setup thus the DNS server running for the Domain Controller. <br>
+<br/>
+
+<h2>Downloading the Script and Generated Users</h2>
 <img src="https://i.imgur.com/FOzNaHh.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/zaBccFq.png" height="80%" width="100%"/>
+- <b>Before using the internet and downloading the script, turn off the "Internet Explorer Enhanced Security Configuration" to disable pop up windows when opening internet explorer.<br>
 <img src="https://i.imgur.com/1IHnd98.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/Wnyko3r.png" height="80%" width="100%"/>
-<img src="https://i.imgur.com/Zvbu9Na.png" height="80%" width="100%"/>
+- <b>Download the files from this link provided by Josh Madakor, 
+  "[https://github.com/joshmadakor1/AD_PS]"<br>
+- <b>"Save As" into your Desktop once downloaded.</b>
 <img src="https://i.imgur.com/XQU0Gzq.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/vCRIIXU.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/CHwKD61.png" height="80%" width="100%"/>
