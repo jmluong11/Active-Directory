@@ -222,6 +222,10 @@
   "[https://github.com/joshmadakor1/AD_PS]"<br>
 - <b>"Save As" into your Desktop once downloaded.</b>
 <img src="https://i.imgur.com/XQU0Gzq.png" height="80%" width="100%"/>
+- <b>Open the "Notepad" file with the generated names, remove the first name on the list, and enter your name that will be made as a user and as an admin account.<br>
+<br/>
+
+<h2></h2>
 <img src="https://i.imgur.com/vCRIIXU.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/CHwKD61.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/kWUjmll.png" height="80%" width="100%"/>
