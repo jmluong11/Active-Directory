@@ -225,14 +225,23 @@
 - <b>Open the "Notepad" file with the generated names, remove the first name on the list, and enter your name that will be made as a user and as an admin account.<br>
 <br/>
 
-<h2></h2>
+<h2>Running the Script in Windows Powershell ISE</h2>
 <img src="https://i.imgur.com/vCRIIXU.png" height="80%" width="100%"/>
+- <b>Open Windows Powershell ISE in administrator mode</b>
 <img src="https://i.imgur.com/CHwKD61.png" height="80%" width="100%"/>
+- <b>Open the downloaded script "1_CREATE_USERS"<br>
 <img src="https://i.imgur.com/kWUjmll.png" height="80%" width="100%"/>
+- <b>(RED BOX) When running the script, you'll receive an error because the file is not "digitally signed."<br>
+- <b>(ORANGE BOX) To bypass, type "Set-ExecutionPolicy Unrestricted", press enter, and click "Yes to All"</b>
 <img src="https://i.imgur.com/Iywu2AY.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/aQVyPqu.png" height="80%" width="100%"/>
+- <b>(RED BOX) Before running the script, change to the directory first by typing "cd C:\users\a-luong\Desktop\AD_PS-master"<br>
+- <b>(ORANGE BOX) Type "ls" to list the files present.<br>
 <img src="https://i.imgur.com/tro3LtT.png" height="80%" width="100%"/>
+- <b>Now you can run the script which creates and lists the usernames in a black background and cyan font.<br>
 <img src="https://i.imgur.com/pRrflWG.png" height="80%" width="100%"/>
+- <b>(RED BOX) To view the list of users or if you wanted to find a specific viewer, go to "Active Directory Users and Computers" in the start menu and navigate to "mydomain.com" 
+- <b>(ORANGE BOX)From there, you'll see a "USERS" tab present now, double click and type any specific first name, last name, or first and last name. Click "Find New" and from there it will pop up in the results if the name exists within the list.</b>
 <img src="https://i.imgur.com/EOV0iDq.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/Zydaiq0.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/CS4BB28.png" height="80%" width="100%"/>
