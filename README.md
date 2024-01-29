@@ -241,13 +241,22 @@
 - <b>Now you can run the script which creates and lists the usernames in a black background and cyan font.<br>
 <img src="https://i.imgur.com/pRrflWG.png" height="80%" width="100%"/>
 - <b>(RED BOX) To view the list of users or if you wanted to find a specific viewer, go to "Active Directory Users and Computers" in the start menu and navigate to "mydomain.com" 
-- <b>(ORANGE BOX)From there, you'll see a "USERS" tab present now, double click and type any specific first name, last name, or first and last name. Click "Find New" and from there it will pop up in the results if the name exists within the list.</b>
+- <b>(ORANGE BOX)From there, you'll see a "USERS" tab present now, double click and type any specific first name, last name, or first and last name. Click "Find New" and from there it will pop up in the results if the name exists within the list.<br>
+<br/>
+
+<h2>Setting up Windows 10 ISO Virtual Machine</h2>
 <img src="https://i.imgur.com/EOV0iDq.png" height="80%" width="100%"/>
+- <b>Click "New", enter any name for the VM, and set the version to "Windows 10 (64-bit)<br>
 <img src="https://i.imgur.com/Zydaiq0.png" height="80%" width="100%"/>
+- <b>Set the RAM (4096 MB) and CPU (4) to what your PC can handle comfortably<br>
 <img src="https://i.imgur.com/CS4BB28.png" height="80%" width="100%"/>
+- <b>Go to the settings -> Advanced tab -> and changed both options to "Bidirectional"<br>
 <img src="https://i.imgur.com/mcppxCn.png" height="80%" width="100%"/>
+- <b>In the network tab, change Adapter 1 to an Internal Network<br>
 <img src="https://i.imgur.com/xDccKdo.png" height="80%" width="100%"/>
+- <b>Double click the new created VM and select "Other" for the DVD<br>
 <img src="https://i.imgur.com/uXsHAqg.png" height="80%" width="100%"/>
+- <b>Attach the WIndows 10 ISO file to the new VM and continue.<br>
 <img src="https://i.imgur.com/nxX2Df9.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/PpzPpF7.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/5eRlBSm.png" height="80%" width="100%"/>
