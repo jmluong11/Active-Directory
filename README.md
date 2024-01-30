@@ -252,18 +252,26 @@
 <img src="https://i.imgur.com/CS4BB28.png" height="80%" width="100%"/>
 - <b>Go to the settings -> Advanced tab -> and changed both options to "Bidirectional"<br>
 <img src="https://i.imgur.com/mcppxCn.png" height="80%" width="100%"/>
-- <b>In the network tab, change Adapter 1 to an Internal Network<br>
+- <b>In the network tab, change Adapter 1 to an "Internal Network" since it's obtaining its own DHCP address from the domain controller<br>
+- <b>This way of connecting to the other Internal Network is similar as how school systems or companies operate.</b>
 <img src="https://i.imgur.com/xDccKdo.png" height="80%" width="100%"/>
 - <b>Double click the new created VM and select "Other" for the DVD<br>
 <img src="https://i.imgur.com/uXsHAqg.png" height="80%" width="100%"/>
 - <b>Attach the WIndows 10 ISO file to the new VM and continue.<br>
 <img src="https://i.imgur.com/nxX2Df9.png" height="80%" width="100%"/>
+- <b>Choose your language preference.<br>
 <img src="https://i.imgur.com/PpzPpF7.png" height="80%" width="100%"/>
-<img src="https://i.imgur.com/5eRlBSm.png" height="80%" width="100%"/>
+- <b>Select "I Don't have a product key"<br>
+<img src="https://i.imgur.com/CNkyklw.png" height="80%" width="100%"/>
+- <b>Select "Custom: Install Windows only (Advanced)"<br>
 <img src="https://i.imgur.com/Pb3lWxb.png" height="80%" width="100%"/>
+- <b>Select "I don't have internet"<br>
 <img src="https://i.imgur.com/vqxaXNA.png" height="80%" width="100%"/>
+- <b>Select "Continue with limited setup"<br>
 <img src="https://i.imgur.com/ffklCuq.png" height="80%" width="100%"/>
+- <b>Enter any name for the user.<br>
 <img src="https://i.imgur.com/EksuPSk.png" height="80%" width="100%"/>
+- <b>Select "No" for all, (optional)<br>
 <img src="https://i.imgur.com/VlJoOsq.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/7fpNp5b.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/AoFme25.png" height="80%" width="100%"/>
