@@ -287,5 +287,4 @@
 <img src="https://i.imgur.com/9XWmE1O.png" height="80%" width="100%"/>
 - <b>Another way of viewing is going to "Active Directory Users and Computers" -> "Computers"<br>
 - <b>"CLIENT1" is the computer that's connected to the domain controller in which any username that was created from the previous script that was ran can be used to log into that specific PC.</b>
-<img src="https://i.imgur.com/HFpxeKn.png" height="80%" width="100%"/>
 
