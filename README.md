@@ -272,12 +272,20 @@
 - <b>Enter any name for the user.<br>
 <img src="https://i.imgur.com/VlJoOsq.png" height="80%" width="100%"/>
 - <b>Select "No" for all, (optional)<br>
-<img src="https://i.imgur.com/7fpNp5b.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/AoFme25.png" height="80%" width="100%"/>
+- <b>To ensure that your new virtual machine is connected to the domain controller, open the "Command Prompt" in the Windows Start Menu, and enter (RED BOX) "ipconfig" which will illustrate the IPv4 Address and the (ORANGE BOX) Default Gateway address.<br>
+- <b>In addition, pinging any site such as (RED BOX) "www.google.com" results in an (ORANGE BOX) address output which means that the this VM is connected to the other internal network, that's connected to the domain controller, that's connected to the external network, and thus is connected to the internet.<br>
+- <b>Lastly when entering (RED BOX) "hostname", it outputs the name given to the PC. Companies would want to rename in case their's a personal laptop under the company which is assigned to a specific user.<br>
 <img src="https://i.imgur.com/HfTjkak.png" height="80%" width="100%"/>
+- <b>To rename the PC, go to the about page in your settings and select "Rename this PC (advanced)" <br>
 <img src="https://i.imgur.com/0t9SJnv.png" height="80%" width="100%"/>
+- <b>"Change" -> Rename as desired (CLIENT1) -> "Domain (mydomain.com)" -> Enter username and password for the VM to confirm changes. Then restart the client to confirm changes.<br>
 <img src="https://i.imgur.com/uqEsjZz.png" height="80%" width="100%"/>
+- <b>To also view the changes, go to the "DomainController" VM and view the DHCP -> IPv4 -> Scope -> Address Lease<br>
+- <b>There you will notice the name of the PC has changed to "Client1" and it's present in the DHCP since the CLIENT1's VM requested a DHCP address.<br>
 <img src="https://i.imgur.com/MGOZEYt.png" height="80%" width="100%"/>
 <img src="https://i.imgur.com/9XWmE1O.png" height="80%" width="100%"/>
+- <b>Another way of viewing is going to "Active Directory Users and Computers" -> "Computers"<br>
+- <b>"CLIENT1" is the computer that's connected to the domain controller in which any username that was created from the previous script that was ran can be used to log into that specific PC.</b>
 <img src="https://i.imgur.com/HFpxeKn.png" height="80%" width="100%"/>
 
