@@ -1,6 +1,6 @@
 <h1>Active-Directory</h1> 
 <h2>Description</h2>
-
+<h3>This lab is a walkthrough of creating an Active Directory that I followed through [Josh Madakor](https://www.youtube.com/watch?v=MHsI8hJmggI&t=3329s). The purpose of this lab is to get an understanding of how an Active </h3>
 <br />
 
 <h2>Languages and Utilities Used</h2>
