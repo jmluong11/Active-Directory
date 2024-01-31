@@ -1,9 +1,18 @@
 <h1>Active-Directory</h1> 
 <h2>Description</h2>
-This lab is a walkthrough of creating an Active Directory that I followed through Josh Madakor's tutorial of creating an Active Directory "https://www.youtube.com/watch?v=MHsI8hJmggI&t=3329s". The purpose of this lab is to get an understanding of how an Active
+<b>This lab is a walkthrough of creating an Active Directory that I followed through Josh Madakor's tutorial of creating an Active Directory "https://www.youtube.com/watch?v=MHsI8hJmggI&t=3329s". The purpose of this lab is to understand what is an active directory, how does it work, and what are the steps necessary to build it all together. <br>
 <br />
 
+<img src="https://i.imgur.com/s0Mxq4H.png" height="80%" width="100%"/>
+<b>This diagram by Josh Madakor illustrates how the Active Directory is being made by creating a virtual machine that takes place of a domain controller using Windows Server 2019 that carries the external network which connects to the internet and an internal network that users can connect to privately with by assigning its own IP address. Within the domain controller, a domain and an active directory (AD DS) is created with being configured to a NAT and RAS. In addition is creating a DHCP scope so that users can automatically have a IP address assigned to them. Lastly for the DC is running a Powershell script created by Josh madakor that creates thousands of users and passwords for the Active Directory. Another virtual machine is going to be made with Windows 10 ISO that will be connected to the DC's internal network and the account created from the Powershellf script will be used to log into the Windows 10 ISO virtual machine.
+
 <h2>Languages and Utilities Used</h2>
+
+- <b>Powershell</b>
+- <b>VirtualBox</b>
+- <b>Windows Server 2019 ISO</b>
+- <b>Windows 10 ISO</b>
+
 <h2>Environments Used</h2>
 <br/>
 
