@@ -266,6 +266,8 @@
 - <b>(ORANGE BOX) To bypass, type "Set-ExecutionPolicy Unrestricted", press enter, and click "Yes to All"<br>
   <br/>
 <img src="https://i.imgur.com/Iywu2AY.png" height="80%" width="100%"/>
+- <b>This is the script I used from Josh Madakor that creates a list of users and passwords and stores it into a file.<br>
+  <br/>
 <img src="https://i.imgur.com/aQVyPqu.png" height="80%" width="100%"/>
 - <b>(RED BOX) Before running the script, change to the directory first by typing "cd C:\users\a-luong\Desktop\AD_PS-master"<br>
 - <b>(ORANGE BOX) Type "ls" to list the files present.<br>
